@@ -31,7 +31,11 @@ img{
     max-width: 100%;
 }
 
+<<<<<<< Updated upstream
 head{
+=======
+header{
+>>>>>>> Stashed changes
     position: fixed;
 }
 
