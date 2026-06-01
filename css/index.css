@@ -31,6 +31,10 @@ img{
     max-width: 100%;
 }
 
+head{
+    position: fixed;
+}
+
 .header-inner{
     max-width: 1200px;
     height: 110px;
