@@ -25,15 +25,10 @@ body {
     color: black;
     line-height: 1;
     background-color: white;
-
 }
 
 img{
     max-width: 100%;
-}
-
-header{
-    position: fixed;
 }
 
 .header-inner{
@@ -46,7 +41,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
 }
 
 .toggle-menu-button{
@@ -69,7 +63,7 @@ header{
 
 .footer{
     color: white;
-    background-color: black;
+    background-color: #24211b;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
@@ -79,7 +73,7 @@ header{
 
 .footer-logo{
     display: block;
-    width: 230px;
+    width: 235px;
     margin-top: 90px;
 }
 
@@ -93,6 +87,44 @@ header{
     font-family: "DotGothic16", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.first-view{
+    height: calc(100vh - 110px);
+    background-image: url(../images/index/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 80px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.first-view-text h1{
+    font-family: ‘Montserrat’, sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.first-view-text p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.lead{
+    max-width: 1200px;
+    margin: 60px auto;
 }
 
 @media (max-width: 800px){
@@ -139,40 +171,3 @@ header{
     }
 }
 
-.first-view{
-    height: calc(100vh - 100px);
-    background-image: url(../images/index/bg_main.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-.first-view-text{
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 80px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 10px black;
-}
-
-.first-view-text h1{
-    font-family: ‘Montserrat’, sans-serif;
-    font-size: 56px;
-    line-height: 72px;
-}
-
-.first-view-text p{
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-.lead{
-    max-width: 1200px;
-    margin: 60px auto;
-}
